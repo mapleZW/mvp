@@ -36,6 +36,7 @@ public class MainActivity extends BaseActivity implements MainView {
         Map<String, Object> map = new HashMap<>();
         map.put("cempCode","asdf");
         //map.put("requestContent", "{}");
+
         mPresenter.getInit(map);
 
     }
